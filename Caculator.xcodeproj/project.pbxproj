@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1ECBDE1FCE46FC00DA98DE /* CaculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1ECBDD1FCE46FC00DA98DE /* CaculatorBrain.swift */; };
 		AE4F80771FCE3CEB006A0EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4F80761FCE3CEB006A0EE9 /* AppDelegate.swift */; };
 		AE4F80791FCE3CEB006A0EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4F80781FCE3CEB006A0EE9 /* ViewController.swift */; };
 		AE4F807C1FCE3CEB006A0EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4F807A1FCE3CEB006A0EE9 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE1ECBDD1FCE46FC00DA98DE /* CaculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorBrain.swift; sourceTree = "<group>"; };
 		AE4F80731FCE3CEB006A0EE9 /* Caculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4F80761FCE3CEB006A0EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE4F80781FCE3CEB006A0EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				AE4F80881FCE3D06006A0EE9 /* Supporting Files */,
 				AE4F80781FCE3CEB006A0EE9 /* ViewController.swift */,
+				AE1ECBDD1FCE46FC00DA98DE /* CaculatorBrain.swift */,
 				AE4F807A1FCE3CEB006A0EE9 /* Main.storyboard */,
 			);
 			path = Caculator;
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1ECBDE1FCE46FC00DA98DE /* CaculatorBrain.swift in Sources */,
 				AE4F80791FCE3CEB006A0EE9 /* ViewController.swift in Sources */,
 				AE4F80771FCE3CEB006A0EE9 /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Caculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Caculator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kcm.Caculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,7 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Caculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Caculator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kcm.Caculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
