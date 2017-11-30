@@ -10,6 +10,7 @@ import Foundation
 
 class CaculatorBrain
 {
+    //test
     private var accumulator = 0.0
     
     func setOperand(operand: Double) {
